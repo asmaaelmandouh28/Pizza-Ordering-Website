@@ -1,0 +1,46 @@
+.main {
+  display: block;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 800px) {
+  .second .one {
+    color: white;
+    background-color: #212529;
+    margin-top: 100px;
+    /* min-height: 100vh; */
+  }
+}
+h1:hover,
+h5:hover,
+h3:hover {
+  color: #750909;
+  cursor: pointer;
+}
+
+.second {
+  margin: 40px 0;
+  display: flex;
+  position: relative;
+  width: 70vw;
+}
+
+.two {
+  height: 480px;
+  background-image: url(/public/Images/4.jpg);
+  position: absolute;
+  top: 70px;
+  left: 750px;
+  width: 28vw;
+  height: 420px;
+  background-position: center;
+}
+
+.one {
+  padding: 70px;
+  width: 50%;
+  height: 530px;
+  background-color: rgb(238, 238, 238);
+}
